@@ -12,6 +12,9 @@ function App() {
       
       </header>
        <Footer/>
+       <>
+        some more content
+       </>
     </div>
   );
 }
