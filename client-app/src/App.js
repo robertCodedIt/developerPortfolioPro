@@ -13,7 +13,7 @@ function App() {
       </header>
        <Footer/>
        <>
-        some more content
+        some more contents
        </>
     </div>
   );
