@@ -1,0 +1,32 @@
+footer{
+  
+    background:#76b583;
+    min-height:18vh;
+    min-width:100vw;
+    max-height:22vh;
+    overflow:hidden;
+    display:grid;
+    grid-template-rows: 1fr,1fr,1fr;
+    grid-template-columns: 1fr,1fr,1fr,1fr,1fr,1fr;
+    place-items:end start;
+    color:white;
+    box-sizing: border-box;
+
+    .footer-icon-div{
+        grid-column:1/2;
+
+        span {
+        font-size: 4rem;
+        margin-top:10px;
+        
+        &:hover {
+            cursor:pointer;
+            color:green;
+            font-size: 4.02rem;
+            background-color: #fff;
+            background: none;
+             }
+        }
+    }
+    
+  }
