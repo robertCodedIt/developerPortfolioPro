@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
 // html {
 //   box-sizing: border-box;
 // }
@@ -24,6 +25,7 @@ body {
   display: grid;
   place-items: center;
   font-size: 16px;
+ 
 }
 
 html {
@@ -43,6 +45,10 @@ html {
   max-height: 20vh;
   list-style: none;
 }
+.container{
+  color:white;
+}
+
 
 .menu li {
   width: 125px;
